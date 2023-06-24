@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel= "stylesheet" type= "text/css" href= "{% static 'css/style1.css' %}">
+
+</head>
+<body>
+
+<form method= "POST">
+  {% csrf_token %}             <!-- Sending form data to backend from which this registration page is called -->
+
+<label for="opinion">Enter your opinion:</label>
+<div class="form-row">
+  <input type="text" id="opinion" name="opinion" required>
+  <button type="submit">Classify</button>
+</div>
+
+
+
+
+<div class="result">
+
+  <div class= "inputText"> 
+    {% if inputText %}
+    <h3  style= "color: black;"> Text you entered:</h3>
+    <h3 style="color: black;  text-decoration-line: underline; text-decoration-style: dashed; text-underline-offset: 0.2em; text-decoration-color: yellow;"> Before processing:   <h4 style= "color: white;"> { {{ inputText }} } </h4> </h3> 
+   
+    
+
+
+    <h3 style="color: black; text-decoration-line: underline; text-decoration-style: dashed; text-underline-offset: 0.2em; text-decoration-color: yellow"> After processing: <h4 style= "color: white;"> { {{ feedbackPreProcessText  }} } </h4> </h3> 
+    
+    
+    
+    <h3 style= "color: yellow"> Tokenize :   {{ feedback_tokenize }}  </h3> 
+
+
+    
+    
+
+    <h3></h3> 
+    {% endif %}
+  
+  </div>
+
+  <div class="result">
+    <h3 style= "color: black">Your Opinion belongs to below class:</h3>
+    {% if classification == "positive" %}
+      <img src="{% static 'image/pos_img.jpg' %}" alt="Positive image"  style="width: 200px; height: 200px;">
+      <h2 class="emoji", style= "color: green">Positive</h2>
+      
+    {% elif classification == "negative" %}
+      <img src="{% static 'image/neg_img.jpg' %}" alt="Negative image" style="width: 200px; height: 200px;">
+      <h2 class="emoji", style= "color: orange">Negative</h2>
+
+
+    {% elif classification == "neutral" %}
+      <img src="{% static 'image/neu_img.jpg' %}" alt="Neutral image" style="width: 200px; height: 200px;">
+      <h2 class="emoji", style= "color: white">Neutral</h2>
+    {% endif %}
+  </div>
+
+
+</form>
+
+</body>
+</html>
