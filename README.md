@@ -18,7 +18,7 @@ Negative case:
 
 
 ## Documentation
-# introduction:
+## introduction:
     1> Sentiment analysis is the process of detecting whether the opinions is positive, negative          
        or neutral.
 
@@ -57,3 +57,4 @@ Github: https://github.com/settings/admin
 linkedIn: https://www.linkedin.com/in/arjun-sherpa-153673198/
 
 gmail: righthuman082@gmail.com
+contact: 9810129951
