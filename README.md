@@ -1,7 +1,7 @@
 ## Sentiment-Analysis
 A project related to Sentiment Analysis by using Naïve Bayes Algorithm which classify the input sentence into three class "Positive", "Negative" &amp; "Neutral"
 
-# Project Screenshots [Positive, Neutral & Negative]
+## Project Screenshots [Positive, Neutral & Negative]
 
 positive case:
 --------------
@@ -27,17 +27,17 @@ Negative case:
     3> Our project allows computers to automatically process opinions just as human does.
 
 
-# use case diagram:
+## use case diagram:
 ![use case diagram](https://github.com/innovative-group/Sentiment-Analysis/assets/51012877/4e3f9a29-df67-4516-91f2-ff7177dc1ca8)
 
 
 
-# Implementation Model for Sentiment Analysis
+## Implementation Model for Sentiment Analysis
 ![implementation model for sentiment analysis](https://github.com/innovative-group/Sentiment-Analysis/assets/51012877/24759e3c-696b-42f2-b211-48c47823f713)
 
 
 
-# Algorith used [Naive Bayes Algorithm]
+## Algorith used [Naive Bayes Algorithm]
 ![Naive Bayes algorith](https://github.com/innovative-group/Sentiment-Analysis/assets/51012877/61e3e4eb-1b90-45d2-a2df-f5fe69abcde9)
 
 
