@@ -44,7 +44,7 @@ Negative case:
 
 ## 🚀 About Me
 
-Allow me to introduce Arjun Sherpa, an enthusiastic individual with a passion for ML, Deep Learning, Data Science, and computational neuroscience. Arjun's passion for computational neuroscience reflects their interest in understanding the intricate workings of the brain.
+Allow me to introduce Arjun Sherpa, an enthusiastic individual with a passion for ML, Deep Learning, Data Science, and computational neuroscience.
 
 Exploring the intersection of neuroscience and Deep Neural Networks(artificial intelligence), seeking to unlock new insights into cognition and behavior is very much fascinating to me.
 
